@@ -32,7 +32,7 @@ string.toLowerCase()
 
 describe('sayHiToGrandma(string)', function() {
   it('returns "I can\'t hear you!" if `string` is lowercase', function() {
-    if(string.toLowerCase() === lowercase){
+    if(string.toLowerCase() === string){
     return "I can\'t hear you!"}
   })
 
