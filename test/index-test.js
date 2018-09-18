@@ -38,8 +38,8 @@ describe('sayHiToGrandma(string)', function() {
 
   it('returns "YES INDEED!" if `string` is uppercase', 
   function() {
-    if(string.toUpperCase() === string){
-    return "Yes indeed!"}
+    if(string.toUpperCase() === string)
+    return "Yes indeed!"
   })
   
   it('returns "I love you, too." if `string` is "I love you, Grandma."`', 
