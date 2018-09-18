@@ -1,3 +1,4 @@
+var answer = "I I love you, Grandma."
 
 describe('shout(string)', function() {
   it('receives one argument and returns it in all caps', function() {
@@ -35,14 +36,17 @@ describe('sayHiToGrandma(string)', function() {
     return "I can\'t hear you!"}
     elseif (string.toUpperCase() === uppercase){
     return "YES INDEED!"
-    }
+    }elseif()
   })
 
   it('returns "YES INDEED!" if `string` is uppercase', function() {
     expect(sayHiToGrandma('HELLO')).toEqual("YES INDEED!")
   })
 
-  it('returns "I love you, too." if `string` is "I love you, Grandma."`', function() {
-    expect(sayHiToGrandma("I love you, Grandma.")).toEqual("I love you, too.")
+  it('returns "I love you, too." if `string` is "I love you, Grandma."`', 
+  
+  function() {
+  if(answer === true)
+  return "I love you, too."
   })
 })
