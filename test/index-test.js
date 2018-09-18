@@ -1,4 +1,6 @@
 var answer = "I I love you, Grandma."
+var lowercase = "Hi Grandma."
+var uppercase = "IS EVERYTHING OK?"
 
 describe('shout(string)', function() {
   it('receives one argument and returns it in all caps', function() {
